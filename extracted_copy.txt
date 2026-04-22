@@ -1,0 +1,231 @@
+
+=== FILE: c:\Users\jonat\git\crc-webpage\Home _ My Site.html ===
+top of page
+Get Started
+Home
+Services
+About
+Contact
+More
+Use tab to navigate through the menu items.
+Climatic Resources Consulting
+Providing Climate Change Expertise for Resilience Planning and Asset Management
+bottom of page
+
+=== FILE: c:\Users\jonat\git\crc-webpage\About _ My Site.html ===
+top of page
+Get Started
+Home
+Services
+About
+Contact
+More
+Use tab to navigate through the menu items.
+About.
+Climatic Resources Consulting
+Photo: Bill MetCalfe
+Publications
+Mel Reasoner PhD
+(University of Alberta, Earth and Atmospheric Sciences)
+bottom of page
+
+=== FILE: c:\Users\jonat\git\crc-webpage\Services _ My Site.html ===
+top of page
+Get Started
+Home
+Services
+About
+Contact
+More
+Use tab to navigate through the menu items.
+Services.
+Based in the West Kootenay region of British Columbia, Climatic Resources Consulting (CRC) is a data-driven, climate resilience software and consulting company.  We provide leading edge climate projections and quantitative risk analysis that facilitate the
+ of climate risks within asset management structures.  The approach and related software (
+ Climate Analysis and Projections or LCap) uses statistically downscaled model projection data to provide the probability of threshold exceedance for a variety of climate indices that are critical for infrastructure and/or operations. 
+Localised Climate Data
+The recent increase in availability of on-line climate change information is a positive development that should facilitate the incorporation of climate projections into the planning process.  However, caution should be exercised when using the data.  For example, in areas of significant topography such as British Columbia, the temperature information will reflect the minimum grid size which will often include some proportion of higher, cooler elevations.  Consequently, modelled historical and projected temperature-derived indices may not reflect warmer valley-bottom conditions where most communities are situated. 
+Observed precipitation, and in particular extreme precipitation indices, tend to be highly variable with respect to location.  At some, but not all, locations the observed maximum 1-day rainfall may exceed
+ historical and even projected values.  Planners should ensure that the observed maximum 1-day precipitation do not exceed projected values before applying these numbers in the planning process.  
+In order to derive accurate estimates of the probability of exceeding critical temperature and precipitation index thresholds from the model data, steps are taken to 1) ensure the model temperature data is adjusted to the baseline conditions at the location of interest and 2) the observed extreme
+ (Rx1, Rx3 and available sub-daily data) is increased by 7% per deg C of projected temperature increase.  ADD BIAS ADJUSTMENT METHOD!
+Probability of Climate Threshold Exceedance
+Case Study 1
+Case Study 2
+LCap Demo
+In collaboration with the City of Edmonton, Climatic Resources Consulting (CRC) has developed a software package (Localized Climate Analysis and Projection – Lcap) that enables planners and engineers to use a probability-based approach to undertake targeted climate change planning for specific community operations and infrastructure. 
+The software package uses the Pacific Climate Impacts Consortium’s ensemble of downscaled GCMs with 10 km X 10 km spatial resolution for locations Canada-wide and currently calculates 27 climate indices that are relevant for assessing extreme climate conditions.  Lcap is designed to work within an iterative process whereby community planners and engineers identify critical climate thresholds that apply to a range of specific operations and infrastructure. Lcap then enables the planning team to quantitatively assess the likelihood of when these thresholds will be exceeded and to make informed decisions on acceptable levels of risk and appropriate adaptation measures.  Further, the process facilitates the exploration of multiple probable climate futures for communities.   
+bottom of page
+
+=== FILE: c:\Users\jonat\git\crc-webpage\Contact _ My Site.html ===
+top of page
+Get Started
+Home
+Services
+About
+Contact
+More
+Use tab to navigate through the menu items.
+Contact.
+Submit
+Thanks for submitting!
+bottom of page
+
+=== FILE: c:\Users\jonat\git\crc-webpage\CV _ My Site.html ===
+top of page
+Get Started
+01 - Home
+02 - Services
+03 - About
+Publications
+04 - Contact
+Case Studies
+Book Online
+More
+Use tab to navigate through the menu items.
+Curriculum Vitae
+Mel A. Reasoner
+________________
+EDUCATION
+                            Doctor of Philosophy, Earth and Atmospheric Sciences
+                            University of Alberta, Edmonton, Alberta, Canada …….…………... Fall 1996
+                            Master of Science, Geology,
+                            University of Alberta, Edmonton, Alberta, Canada ……………… Spring 1988
+                            Honours Bachelor of Arts, Geology,
+                            University of Montana, Missoula, Montana, USA .....…....………. Spring 1981
+_________________________________________________________________________________
+SKILLSET SUMMARY
+Proficiency with compiling regional and local climate model information and analysing historical climate timeseries for trends with appropriate statistical techniques.
+Research experience with the development of a novel approach for quantifying the probability of climate conditions exceeding critical thresholds for infrastructure and operations.
+Facility for communicating complex scientific concepts to a broad range of audiences.
+Experience with establishing, developing and m
+anaging organisations such as international research initiatives, post-secondary educational programs and interpretative programs/facilities.
+Networking skills that bring together researchers in various academic disciplines with policy makers, stakeholders and the general public in order to address global change issues.
+Experience with organising and administrating a range of projects including multidisciplinary scientific research efforts, academic meetings and community workshops.
+Experience with developing and delivering undergraduate and graduate level university courses.
+_________________________________________________________________________________
+PROFESSIONAL AND ACADEMIC EXPERIENCE
+2017 - 2023   Climatic Resources Consulting:  As a member of the Climate Resilience Consulting team, I contributed to a major climate change report for the City of Edmonton that reconstructed the local climate history and provided projections of future climate conditions with an ensemble of downscaled climate models.  This work provided not only projections of annual and seasonal temperature and precipitation but also included projections for a suite of 22 climate indices including, for example, annual number of days above 30oC, annual number of heat waves, summer heat wave magnitude and ice days.  Ongoing work with the City of Edmonton is focused on developing projections of probabilities of indices exceeding critical thresholds for specific infrastructure and community operations. 
+2007 - 2020    Columbia Basin Trust – Climate Action Programs: The Trust’s second Climate Action Program, like its predecessor the ‘Communities Adapting to Climate Change Initiative’, is a regional planning and action project that aims to take tangible steps toward reducing GHG emissions and preparing for climate change impacts in the Columbia Basin. The initiative is a partnership between the Columbia Basin Trust and a variety of local government agencies, First Nations, provincial organizations, and academic institutions.  My primary responsibilities within both programs were the preparation and delivery of ‘climate change 101’ presentations to politicians, municipal and regional district staff, stakeholders and residents.  These activities involved relaying complex information from the Pacific Climate Impacts Consortium (PCIC) regarding anticipated changes in temperature, precipitation, hydrology and vegetation, and communicating the message from the mainstream scientific community about climate change research to local government officials and the general public.  
+2015 - 2018    All One Sky Foundation – Climate Resilience Express:   Through a series of one-day workshops, this program provided a number of communities in Alberta with the information necessary for advancing climate resilience strategies.  I am involved with the preparation an delivery of climate change information including historical trends in temperature and precipitation, climate change projections and basic climate science. 
+2015 Development of IDF Curves Under a Changing Climate – Town of Creston:  Through support from the Columbia Basin Trust’s Communities Adapting to Climate Change Initiative, the Town of Creston updated Intensity-Duration-Frequency (IDF) curve in order to facilitate planning that will minimize risk issues for the municipal stormwater infrastructure.  I was involved with providing historical climate trends, projections of temperature and precipitation, and projections of intensity, duration and frequency of precipitation events under several emissions pathways.
+2010 - 2011     Steering Committee - City of Nelson Community Climate and Energy Plan:  This committee was assembled in late 2010 to develop a Community Energy and Emissions Action Plan that builds on concepts and strategies developed in the City’s ‘Path to 2040’ Sustainability Strategy.  The plan complements the Corporate GHG Reduction Plan by 1) establishing GHG reduction targets and actions in the City’s Official Community Plan, 2) integrating climate and energy priorities into municipal business activity, 3) developing community-wide GHG targets, and 4) establishing clear implementation paths.  
+2010     Working Group Member - Nelson Sustainability Strategy:  Participation in the City of Nelson’s ‘Path to 2040’ planning process as a member of the Energy and Climate Change Working Group involved a detailed assessment of the City’s strengths and weaknesses, setting future ‘end state’ goals and specific objectives.  The process also involved identifying cross-cutting themes with other working groups in the planning process.  The objectives and goals outline a path toward carbon neutrality, resiliency and self sufficiency with respect to energy while enhancing a vibrant local economy.  
+2009 - 2013     Sessional Lecturer UBC and Selkirk College:  Restructuring, preparation and delivery of the third year Earth and Environmental Science ‘Field Techniques’ course at UBC Okanagan.  Preparation and delivery of GEOG 232 and GEOL 142 at the Castlegar Campus. 
+2005 - 2009 Director – West Kootenay EcoSociety:  The West Kootenay EcoSociety is dedicated to promoting ecologically and socially sound communities while protecting species and ecosystems in the Southern Columbia Mountains ecoregion.  My primary focus with the EcoSociety has been on climate change issues and working within the community of Nelson on the initiation of climate change activities and strategies.  A significant contribution was a lead role in organizing the ‘Climate Change: Exploring Regional Solutions’ symposium that was held in Nelson in April 2007.
+2001 - 2004        Executive Director – Global Change in Mountain Regions - The Mountain Research Initiative, Office of the Swiss National Academy of Science, Bern Switzerland:  The Mountain Research Initiative (MRI) was established in 2001 as a collaborative interdisciplinary project of the International Geosphere-Biosphere Program (IGBP), The International Human Dimensions Program on Global Environmental Change (IHDP) and The Global Terrestrial Observing System (GTOS). The primary goals of the Initiative are (1) to define a consistent and effective approach for monitoring and detecting global environmental change in mountain environments, (2) to assess the consequences of global environmental change for mountain regions as well as lowland regions dependent on mountain resources, and (3) to synthesize the scientific knowledge that will underpin sustainable development policy for mountain regions at local to regional scales. Activities included initiation and coordination of international research projects, organization of international meetings and workshops, development and maintenance of communication platforms and databases, writing/editing of reports, books and newsletters, grant writing and fundraising, and management of international project office staff.  Through my work with the MRI, I became involved with the Millennium Ecosystem Assessment (MA) as lead author of Chapter 24.3.2 ‘Mountain Systems – Conditions and Trends – Atmospheric Conditions’.
+2000 - 2001        Lecturer - Geography and Earth Sciences, Brunel University, London UK, and Director for the Environmental Change: Social & Physical Aspects MSc Programme:    Preparation and delivery of several new courses that focused on various aspects of climatic and environmental change and substantive contributions to existing courses within the department. Administrative activities associated with directing and developing a new focus for the MSc Environmental Change program. Continuation of palaeoenvironmental research projects in the Colorado Rockies in collaboration with the radiocarbon lab at the Institute of Arctic and Alpine Research, Colorado.
+________________________________________________________________________________
+UNIVERSITY TEACHING EXPERIENCE
+2012              Geomorphology, Historical Geology – Selkirk College
+2009 – 2012  Field Techniques – University of British Columbia Okanagan
+2000 – 2001  Palaeoclimatology, Weather and Climate, Environmental Perspectives – Brunel University
+1999 – 2000  Palaeoclimatology – University of Innsbruck
+________________________________________________________________________________
+MAJOR AWARDS
+1998 Natural Sciences and Engineering Research Council of Canada (NSERC) Postdoctoral Fellowship.
+1991 Queen Elizabeth II Doctoral Fellowship in Environmental Studies.
+1992 Mary Louise Imbrie Graduate Student Award.
+1990 Province of Alberta Graduate Fellowship. ____________________________________________________________________________
+MAJOR RESEARCH GRANTS
+2004 MRI International Project Office – Swiss National Science Foundation (243,000.00 CHF).
+2002 Global Change in Mountain Regions – EU Framework 6 (€448,265.00).
+2002 MRI International Project Office - Swiss Federal Office for Education and Technology   (225,000.00 CHF).
+1997 Alpine Paleoenvironments - Smithsonian Institution Paleoindian/Paleoecology  ($12,500.00 US).
+1992 Alpine Paleoenvironments - Imperial Oil of Canada Research Grant ($33,500.00 CDN).
+bottom of page
+
+=== FILE: c:\Users\jonat\git\crc-webpage\Publications _ My Site.html ===
+top of page
+Get Started
+01 - Home
+02 - Services
+03 - About
+Publications
+04 - Contact
+Case Studies
+Book Online
+More
+Use tab to navigate through the menu items.
+_____________________________________________________________
+REFEREED PUBLICATIONS
+Reasoner, M.A. & Tinner, W., (2008).
+Reasoner, M.A., Baron, J., Barry, R., Blais, J., Bradley, R., Kapos, V., Leavitt, P., Schindler, D., & Vinebrooke, R., (2005).
+Huber, U., Bugmann, H. & Reasoner, M.A. (eds.), (2005).
+Björnsen, A., Huber, U., Reasoner, M.A., Messerli, B. & Bugmann, H., (2005). Future research directions. In: Huber, U.M., Bugmann, H.K.M. & Reasoner, M.A. (eds.), 2005.
+Reasoner, M.A., Bugmann, H. & Schaaf, T., (2004).
+Leavitt, P.R., Cumming, B.F., Smol, J.P., Reasoner, M.A., Pienitz, R., and Hodgson, D.A. (2003).
+Whitlock, C. and Reasoner, M.A. (2002).
+Reasoner, M.A., Davis, P.T., and Osborn, G. (2001).
+Reasoner, M.A. and Jodry, M.A. (2000).
+Reasoner, M.A., and Huber, U.M. (1999).
+Leonard, E.M., and Reasoner, M.A. (1999).
+Hickman, M., and Reasoner, M.A. (1998).
+Menounos, B., and Reasoner, M.A. (1997).
+Osborn, G., Clapperton, C., Davis, P.T., Reasoner, M.A., Rodbell, D.T., Seltzer, G.O., and Zielinski, G. (1995).
+Hickman, M., and Reasoner, M.A. (1994).
+Reasoner, M.A., Osborn, G., and Rutter, N.W. (1994).
+Reasoner, M.A. (1993).
+Beaudoin, A.B., and Reasoner M.A. (1992).
+Reasoner, M.A., and Hickman, M. (1989).
+Reasoner, M.A., and Rutter, N.W. (1988).
+Reasoner, M.A., and Healy, R.E. (1986).
+Reasoner, M.A. (1986).
+___________________________________________________________
+GLOBAL CHANGE NEWSLETTER ARTICLES
+Büchler, B., Bradley, R., Messerli, B. & Reasoner, M.A. (2004).
+Reasoner, M.A. (2002).
+Dyck, E. and Reasoner, M.A. eds.
+Reasoner, M.A., Graumlich, L., Messerli, B. and Bugmann, H. (2002).
+Kull, C., Reasoner, M.A. and Alverson, K. eds.
+Reasoner, M.A., Becker, A., Bugmann, H., Graumlich, H., Haeberli, W., Lütkemeier, S. and Messerli, B. (2001).
+Reasoner, M.A., Becker, A., Bugmann, H., Graumlich, H., Haeberli, W., Messerli, B. and Oldfield, F. (2001).
+Reasoner, M.A. (2001).
+__________________________________________________________
+CONSULTING REPORTS
+Reas
+oner, M.A. (2023).
+Eyzaguirre, J., Boyd, R., Morton, C., Semmens, C., Ramen, S., Reasoner, M., Cuell, C., Kohfeld, K. and Sherren,  K. (2022).
+Reasoner, M.A. and Cuell, C (2020).
+Jones, J., Liepa, I., Green, K., Rethoret, L., Maloney, J., Remond, J., Abott, N., Neto, R., Reasoner, M., Cuell, C., Matejka, M., Driver, S., Perrault, J., Zettel, C., and Krefting, C.
+Reasoner, M.A. and Cuell, C (2018).
+Cuell, C and Reasoner, M.A. (2017).
+Reasoner, M.A. and Cuell, C (2016).
+Reasoner, M. A. (2015).
+bottom of page
+
+=== FILE: c:\Users\jonat\git\crc-webpage\Case Studies _ My Site.html ===
+top of page
+Get Started
+01 - Home
+02 - Services
+03 - About
+Publications
+04 - Contact
+Case Studies
+Book Online
+More
+Use tab to navigate through the menu items.
+NORDIC SKI AREA CASE STUDY
+CRC undertook this study to provide quantitative information that supported the planning process for a Nordic ski operation in British Columbia.  The report documents the climate history of the study area over the last 100 years and projections for future climate conditions over the 21st century.  In addition, CRC’s LCap software provided the probabilities of exceedance for a key climate threshold that is critical for ski operations. This data informed decisions around the allocation of resources at low vs high elevations sites and the development of strategies that will minimize the consequences of the anticipated impacts.
+In terms of mean annual temperature, the climate in the study region has warmed at a rate of +1.6oC over the last 100 years.  Over the same period, the observed rate of warming globally has been approximately 1 oC, and it is anticipated that the local rate of warming will continue to exceed the global rate over the course of this century.  The rate of warming in the area has increased to +2.8oC /century over the last 50 years. In the winter months (DJF), the rate of warming over the last 50 years has been 3.3oC /century.  The rates of change in annual and seasonal precipitation when considered over the last 50 years are less striking.  
+Model projections indicate that additional warming can be expected in the study area over the coming decades, and that this warming will be significant (Figure 1).  Increases in mean annual temperature are expected to reach between +2.8 oC (Low Carbon pathway - RCP4.5) and +3.5 oC (High Carbon pathway - RCP8.5) above the 1961-1990 base period by the 2050s.  The projected warming during winter (DJF) will be similar in magnitude to the annual warming throughout the century with winter temperatures exceeding the base period by between +2.7 oC (Low Carbon pathway) and +3.5 oC (High Carbon pathway) by the 2050s. 
+Exploration of the relationship between climate and ski conditions revealed that Mean January/February/March Maximum Temperature (winter Tmax) has an important influence on ski conditions. Both qualitative assessments of ski conditions (derived from trail grooming logs) and the number of days after Jan 1 with > 5cm snow depth are both correlated with winter Tmax. A threshold of Winter Tmax greater than 4oC was identified as key for ski operations and is associated with unfavourable ski/skate conditions.  In addition, favourable ski conditions, such as those experienced in the 2018 and 2019 seasons, are associated with Winter Tmax of about -0.5 oC (Figure 2).  Probability plots (Figures 3a – 3b, 4a – 4b) provide the likelihood of winter Tmax exceeding the critical thresholds associated with unfavourable (and favourable) ski conditions.  
+By the 2050s 1 in 4 years will qualify as a poor year in terms of snow conditions on the existing ski club trails.  In these years, ski seasons would be very short or even non-existent.  Further, although there have been some recent years with favourable ski conditions, they are not likely to be common in the future.  By 2050, there is a less than 7% chance of favourable conditions similar to 2018 and 2019 occurring on any given year. 
+The recommended approach for using the above information involves establishing the Nordic club’s risk appetite for unfavourable ski conditions and then determining from the probability plots if the risk appetite will be exceeded within the planning timeframe.  For example, if 2050 is identified as the planning target, the likelihood of poor ski conditions associated with exceeding mean Winter Tmax of 4oC in any given year is approximately 24% (Figure 3b).  If the club determined that the acceptable risk appetite this threshold is 20% (or 1 year in 5), then it would be reasonable to conclude that any resource allocation for these operations beyond the 2050s would be inappropriate.  Further, by the 2050s, the likelihood of favourable ski conditions associated with Winter Tmax of -0.5 oC are about 7% (Figure 4b) which may reinforce this conclusion.  Following this procedure, exploration of different risk appetites and planning timeframes should constrain the decision-making process to scenarios in which resources are allocated within the range of risk appetite for unfavourable ski conditions at the ski area.
+bottom of page
+
+=== FILE: c:\Users\jonat\git\crc-webpage\Case Study 2 _ My Site.html ===
+top of page
+Get Started
+Home
+Services
+About
+Contact
+More
+Use tab to navigate through the menu items.
+Probability of Exceeding a Budgetary Threshold for Building Cooling Costs.
+For the purpose of demonstration, CRC has developed a hypothetical example of how LCap can be used to assess risks associated with exceeding budgetary thresholds. The data is fictitious but loosely based on cooling demand numbers for facilities in Edmonton AB.
+In this case, the community is concerned about rising cost for cooling buildings in the summer. Since 1900, Cooling Degree Days (CDD) have been rising (Figure 1) as have the costs associated with cooling buildings. The first step is to establish the relationship between the energy used in cooling the facilities and Cooling Degree Days (Figure 2). The community identified an unacceptable annual cooling cost for the buildings of $143,000.00 which, based on the observed correlation between annual MWh and CDD (Figure 2), would result from an annual use of 1300MWh. Although the observed maximum annual energy used in cooling the buildings has not exceeded 930MWh, the community was interested in quantifying the likelihood of exceeding the 1300MWh threshold in the future.
+Downscaled model projection for the community show that annual CCD will rise over the coming decades (Figure 3a) and that 1300 CDD per annum will become more common in the future. Quantitative estimates of the probability of exceeding 300 CDD (Figure 3b), provide financial planners with a means of assessing when action will need to be taken to avoid exceeding the budgetary threshold of $143,000.00 in annual cooling costs. The analysis shows that, by ca. 2050, there will be a 20% chance of exceeding the 300 CDD threshold with current cooling infrastructure configuration and efficiency. The analysis also demonstrates that, by ca. 2068, there will be a 50% chance of this threshold being exceeded each year. If financial planners are uncomfortable with a 1 in 5 chance of exceeding the budget, then action should be taken before ca. 2050 to reduce cooling costs.
+bottom of page
+
