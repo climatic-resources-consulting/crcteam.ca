@@ -4,323 +4,202 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Climatic Resources Consulting (CRC) provides climate change expertise for resilience planning and asset management. Based in Nelson, BC, Canada.">
-  <title>Climatic Resources Consulting — Nelson, BC</title>
+  <title>Climatic Resources Consulting | Climate Risk, LCap, and Resilience Planning</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- ===== SITE HEADER / NAV ===== -->
-  <header id="site-header" class="site-header">
-    <div class="container header-inner">
-      <a href="#home" class="logo-link" aria-label="Climatic Resources Consulting — return to top">
-        <img
-          src="assets/brand/crc_logo_legacy.png"
-          alt="CRC – Climatic Resources Consulting"
-          class="logo">
+  <header class="topbar" id="top">
+    <div class="wrap topbar-inner">
+      <a href="#home" class="brand" aria-label="Climatic Resources Consulting home">
+        <img src="assets/brand/crc_logo.png" alt="CRC logo" class="brand-mark">
       </a>
-      <nav class="main-nav" aria-label="Main navigation">
-        <button
-          class="nav-toggle"
-          aria-expanded="false"
-          aria-controls="nav-list"
-          aria-label="Toggle navigation menu">
-          <span></span><span></span><span></span>
-        </button>
-        <ul id="nav-list" class="nav-list" role="list">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#case-studies">Case Studies</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact" class="nav-cta">Contact</a></li>
-        </ul>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="cv-publications.html">CV + Publications</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
       </nav>
     </div>
   </header>
 
   <main>
-
-    <!-- ===== HERO ===== -->
-    <section id="home" class="hero" aria-label="Climatic Resources Consulting — hero">
-      <div class="hero-overlay" aria-hidden="true"></div>
-      <div class="container hero-content">
-        <p class="hero-eyebrow">West Kootenay, British Columbia</p>
-        <h1 class="hero-title">Climatic Resources<br>Consulting</h1>
-        <p class="hero-tagline">Providing Climate Change Expertise for Resilience Planning and Asset Management</p>
-        <div class="hero-actions">
-          <a href="#services" class="btn btn-primary">Our Services</a>
-          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
-        </div>
+    <section class="hero" id="home">
+      <div class="hero-art" aria-hidden="true">
+        <span class="ring ring-a"></span>
+        <span class="ring ring-b"></span>
+        <span class="ring ring-c"></span>
       </div>
-      <div class="hero-scroll" aria-hidden="true"><span></span></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">West Kootenay, British Columbia</p>
+          <h1>Climate Insight for Decisions That Last.</h1>
+          <p class="hero-lead">Climatic Resources Consulting provides climate change expertise for resilience planning and asset management, combining scientific rigor with practical guidance for engineers, communities, and infrastructure leaders.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn">Explore Services</a>
+            <a href="#contact" class="btn btn-ghost">Start a Conversation</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <img src="assets/figures/hero-trend.png" alt="Stylized climate variability trend signal used as a visual motif" loading="eager">
+          <figcaption>A stylized climate trend signal from CRC materials. The original graphic appeared without axis labels or legend context.</figcaption>
+        </figure>
+      </div>
     </section>
 
-
-    <!-- ===== ABOUT CRC ===== -->
-    <section id="about-crc" class="section section-warm">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">About CRC.</h2>
+    <section class="section lcap-ribbon" aria-label="LCap software">
+      <div class="wrap ribbon-inner">
+        <img src="assets/brand/lcap_logo.png" alt="LCap Localized Climate Analysis and Projection logo" class="lcap-logo" loading="lazy">
+        <div>
+          <p class="lcap-kicker">Featured Platform</p>
+          <h2 class="lcap-title">LCap - Localised Climate Analysis and Projections</h2>
+          <p>LCap is CRC's core software platform and the engine behind our probability-based climate risk assessments for site-specific operations and infrastructure. It converts climate model output into practical planning intelligence for engineers, asset managers, and municipal teams.</p>
         </div>
-        <p class="section-lead intro-lead">Since our inception, <strong>Climatic Resources Consulting</strong> has been focused on providing communities and organisations with detailed climate histories and localized climate model projections — and facilitating the planning process by providing quantitative assessments of the likelihood of critical threshold exceedance for infrastructure and operations.</p>
-        <div class="two-col">
-          <div class="two-col__text">
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">What We Do</p>
+          <h2>Scientific Clarity, Applied to Assets and Operations.</h2>
+        </div>
+        <div class="split">
+          <div>
             <p>Based in the West Kootenay region of British Columbia, Climatic Resources Consulting (CRC) is a data-driven, climate resilience software and consulting company. We provide leading edge climate projections and quantitative risk analysis that facilitate the prioritisation of climate risks within asset management structures.</p>
-            <p>The approach and related software — <strong>Localised Climate Analysis and Projections (LCap)</strong> — uses statistical downscaling and probabilistic analysis to generate site-specific climate projections. LCap enables planners and engineers to use a probability-based approach to undertake targeted climate change planning for specific community operations and infrastructure.</p>
-            <a href="#services" class="btn btn-primary">Explore Our Services</a>
+            <p>The approach and related software, Localised Climate Analysis and Projections (LCap), uses statistical downscaling and probabilistic analysis to generate site-specific climate projections. LCap enables planners and engineers to use a probability-based approach to undertake targeted climate change planning for specific community operations and infrastructure.</p>
           </div>
-          <div class="two-col__visual">
-            <figure class="feature-figure">
-              <img
-                src="assets/figures/hero-trend.png"
-                alt="Stylized climate variability trend signal used as a visual motif"
-                class="feature-image"
-                loading="lazy">
-              <figcaption>A stylized climate trend signal from CRC materials. The original graphic was presented without labeled axes, units, or legend.</figcaption>
-            </figure>
+          <div class="service-stack">
+            <article class="service-item">
+              <h3>Climate Projections</h3>
+              <p>Detailed climate histories and localised model projections for long-horizon planning.</p>
+            </article>
+            <article class="service-item">
+              <h3>Quantitative Risk Analysis</h3>
+              <p>Threshold exceedance probabilities for climate-sensitive infrastructure and services.</p>
+            </article>
+            <article class="service-item">
+              <h3>Asset Management Integration</h3>
+              <p>Decision-ready climate data integrated into resilience and capital planning workflows.</p>
+            </article>
           </div>
         </div>
       </div>
     </section>
 
-
-    <!-- ===== SERVICES ===== -->
-    <section id="services" class="section section-dark">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title section-title--light">Services.</h2>
-          <p class="section-lead section-lead--light">CRC offers targeted, data-driven climate consulting services designed for communities, engineers, and asset managers working in a changing climate.</p>
+    <section class="section section-alt" id="case-studies">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Case Studies</p>
+          <h2>Probability in Practice.</h2>
         </div>
-        <div class="services-grid">
-
-          <div class="service-card">
-            <div class="service-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <polyline points="5,40 15,24 23,31 33,13 43,21" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <line x1="5" y1="43" x2="43" y2="43" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              </svg>
-            </div>
-            <h3>Climate Projections</h3>
-            <p>Detailed climate histories and localised, statistically-downscaled climate model projections. We provide site-specific, multi-decadal climate outlooks grounded in observational data and the latest global model ensembles.</p>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2.5"/>
-                <path d="M24 14 L24 24 L31 29" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="24" cy="24" r="2" fill="currentColor"/>
-              </svg>
-            </div>
-            <h3>Quantitative Risk Analysis</h3>
-            <p>Probability-based analysis of the likelihood of critical climate threshold exceedance for specific operations and infrastructure. We translate climate science into actionable risk metrics for decision-makers.</p>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="7" y="5" width="34" height="38" rx="3" stroke="currentColor" stroke-width="2.5"/>
-                <line x1="14" y1="16" x2="34" y2="16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <line x1="14" y1="23" x2="34" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <line x1="14" y1="30" x2="26" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              </svg>
-            </div>
-            <h3>Asset Management Support</h3>
-            <p>Integration of climate risk assessments into asset management frameworks, enabling long-term resilience planning and informed capital investment decisions for infrastructure operating under changing climate conditions.</p>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="5" y="10" width="38" height="28" rx="3" stroke="currentColor" stroke-width="2.5"/>
-                <polyline points="12,30 18,22 25,28 32,20 38,24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="38" cy="24" r="2.5" fill="currentColor"/>
-              </svg>
-            </div>
-            <h3>LCap Software</h3>
-            <p>Our proprietary <strong>Localised Climate Analysis and Projections (LCap)</strong> software delivers a powerful, probabilistic tool for site-specific climate change planning — purpose-built for planners and engineers.</p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-
-    <!-- ===== CASE STUDIES ===== -->
-    <section id="case-studies" class="section section-warm">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Case Studies.</h2>
-          <p class="section-lead">Real-world applications of climate risk analysis and the LCap methodology across diverse sectors and geographies.</p>
-        </div>
-        <div class="case-grid">
-
-          <article class="case-card">
-            <div class="case-card__image">
-              <img
-                src="assets/figures/case-edmonton.jpg"
-                alt="Climate threshold exceedance probability chart — City of Edmonton case study"
-                loading="lazy">
-            </div>
-            <div class="case-card__body">
-              <span class="case-label">Case Study 1 — Municipal Infrastructure</span>
-              <h3>Probability of Climate Threshold Exceedance</h3>
-              <p>In collaboration with the City of Edmonton, CRC developed the LCap software package enabling planners and engineers to use a probability-based approach for targeted climate change planning for specific community operations and infrastructure.</p>
-              <a href="#contact" class="btn btn-outline">Request Report</a>
+        <div class="cards">
+          <article class="card">
+            <img src="assets/figures/case-edmonton.jpg" alt="City of Edmonton threshold exceedance chart" loading="lazy">
+            <div class="card-body">
+              <h3>City of Edmonton Collaboration</h3>
+              <p>CRC developed and applied the LCap framework to support probability-based climate planning for City of Edmonton operations and infrastructure. The work combined a local climate history with downscaled projections and translated those results into exceedance probabilities for planning-relevant thresholds. This allowed technical teams to compare risk trajectories across multiple time horizons and prioritize adaptation actions with stronger quantitative support.</p>
             </div>
           </article>
-
-          <article class="case-card">
-            <div class="case-card__image">
-              <img
-                src="assets/figures/case-cooling.jpg"
-                alt="Budgetary threshold analysis for building cooling costs"
-                loading="lazy">
-            </div>
-            <div class="case-card__body">
-              <span class="case-label">Case Study 2 — Building Operations</span>
-              <h3>Probability of Exceeding a Budgetary Threshold for Building Cooling Costs</h3>
-              <p>Applying CRC's LCap methodology to assess future cooling cost exposure under projected climate scenarios — supporting capital planning and energy management decisions for facilities managers and asset owners.</p>
-              <a href="#contact" class="btn btn-outline">Request Report</a>
+          <article class="card">
+            <img src="assets/figures/case-cooling.jpg" alt="Cooling cost budget threshold analysis" loading="lazy">
+            <div class="card-body">
+              <h3>Building Cooling Cost Thresholds</h3>
+              <p>This case study assessed future cooling cost exposure by estimating the probability of exceeding specific budget thresholds under projected warming conditions. Rather than relying on average change alone, the analysis focused on likelihood and frequency of cost stress events that matter to facilities management. The results supported more resilient budgeting, lifecycle planning, and phased investment decisions for building operations.</p>
             </div>
           </article>
-
-          <article class="case-card">
-            <div class="case-card__image">
-              <img
-                src="assets/figures/case-nordic.jpg"
-                alt="Seasonal snowpack and precipitation projections — Nordic ski area case study"
-                loading="lazy">
-            </div>
-            <div class="case-card__body">
-              <span class="case-label">Case Study 3 — Recreation &amp; Tourism</span>
-              <h3>Nordic Ski Area — Climate Viability Assessment</h3>
-              <p>CRC undertook this study to provide quantitative information supporting the planning process for a Nordic ski operation in British Columbia, documenting the climate history over 100 years and projecting future conditions, with LCap providing probability estimates for key operational thresholds.</p>
-              <a href="#contact" class="btn btn-outline">Request Report</a>
+          <article class="card">
+            <img src="assets/figures/case-nordic.jpg" alt="Nordic ski area climate outlook" loading="lazy">
+            <div class="card-body">
+              <h3>Nordic Ski Area Viability</h3>
+              <p>For a Nordic ski operation in British Columbia, CRC produced a 100-year climate history and 21st-century projection set, then linked those datasets to operational snow and temperature thresholds. LCap-based probability outputs helped clarify how reliability windows may shift over coming decades. The study gave operators and planners a concrete evidence base for infrastructure, programming, and risk management decisions.</p>
             </div>
           </article>
-
         </div>
       </div>
     </section>
 
-
-    <!-- ===== ABOUT MEL ===== -->
-    <section id="about" class="section section-mid">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">About.</h2>
-        </div>
-        <div class="bio-layout">
-          <div class="bio-photo">
-            <figure>
-              <img
-                src="assets/photos/mel-reasoner.jpg"
-                alt="Mel Reasoner PhD — founder and principal scientist, Climatic Resources Consulting, in the West Kootenay mountains of BC"
-                class="portrait">
-              <figcaption class="photo-credit">Photo: Bill MetCalfe</figcaption>
-            </figure>
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <figure class="portrait-block">
+          <img src="assets/photos/mel-reasoner.jpg" alt="Mel Reasoner PhD" loading="lazy">
+          <figcaption>Photo: Bill MetCalfe</figcaption>
+        </figure>
+        <div>
+          <div class="section-head">
+            <p class="kicker">About</p>
+            <h2>Mel Reasoner PhD</h2>
           </div>
-          <div class="bio-text">
-            <h3>Mel Reasoner PhD</h3>
-            <h4 class="bio-role">Founder &amp; Principal Scientist</h4>
-            <p>Mel Reasoner PhD is the founder and principal scientist of Climatic Resources Consulting, based in Nelson, British Columbia — at the heart of the West Kootenay region. His work bridges rigorous climate science with the practical demands of infrastructure planning, helping communities and organisations understand and plan for a changing climate.</p>
-            <p>With deep roots in the mountains and valleys of the BC interior, Mel brings both scientific expertise and a grounded, place-based perspective to climate resilience work. His approach reflects the realities faced by rural communities, resource industries, and engineers who must plan for decades ahead in a landscape shaped by weather, water, and seasonal variability.</p>
-            <p>CRC's methods and LCap software grew directly from Mel's research into quantitative climate analysis — translating rigorous scientific methodology into practical tools for planners, engineers, and asset managers across Canada and beyond.</p>
-            <div class="bio-actions">
-              <a href="#contact" class="btn btn-primary">Contact Mel</a>
-            </div>
-          </div>
+          <p>Since CRC's inception, the company has focused on providing communities and organisations with detailed climate histories and localized climate model projections, while facilitating planning through quantitative assessment of critical threshold exceedance for infrastructure and operations.</p>
+          <p>Mel Reasoner's work bridges deep climate science and practical implementation, grounded in the realities of rural BC and the needs of engineers and asset managers making long-term decisions under uncertainty.</p>
         </div>
       </div>
     </section>
 
-
-    <!-- ===== CONTACT ===== -->
-    <section id="contact" class="section section-dark">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title section-title--light">Contact.</h2>
-          <p class="section-lead section-lead--light">Ready to assess your climate risk exposure? Get in touch to discuss how CRC can support your planning process.</p>
+    <section class="section contact" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <div class="section-head">
+            <p class="kicker">Contact</p>
+            <h2>Let's Talk About Your Climate Risk Questions.</h2>
+          </div>
+          <address>
+            <p>Climatic Resources Consulting</p>
+            <p>722 Third St.</p>
+            <p>Nelson, BC V1L 2R2 Canada</p>
+            <p><a href="mailto:mel.reasoner@crcteam.ca">mel.reasoner@crcteam.ca</a></p>
+          </address>
         </div>
-        <div class="contact-layout">
-          <div class="contact-info">
-            <p class="contact-org">Climatic Resources Consulting</p>
-            <address>
-              <p>722 Third St.</p>
-              <p>Nelson, BC&nbsp; V1L 2R2</p>
-              <p>Canada</p>
-            </address>
-            <a href="mailto:mel.reasoner@crcteam.ca" class="contact-email">mel.reasoner@crcteam.ca</a>
-          </div>
-          <div class="contact-map">
-            <iframe
-              title="Nelson, BC — location of Climatic Resources Consulting"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-117.33%2C49.47%2C-117.23%2C49.53&amp;layer=mapnik&amp;marker=49.4993%2C-117.2835"
-              allowfullscreen
-              loading="lazy">
-            </iframe>
-            <p class="map-link">
-              <a
-                href="https://www.openstreetmap.org/?mlat=49.4993&amp;mlon=-117.2835#map=14/49.4993/-117.2835"
-                target="_blank"
-                rel="noopener noreferrer">View larger map</a>
-            </p>
-          </div>
+        <div class="map-wrap">
+          <iframe
+            title="Nelson BC map"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-117.33%2C49.47%2C-117.23%2C49.53&amp;layer=mapnik&amp;marker=49.4993%2C-117.2835"
+            loading="lazy"
+            allowfullscreen></iframe>
         </div>
       </div>
     </section>
-
   </main>
 
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="site-footer" role="contentinfo">
-    <div class="container footer-inner">
-      <a href="#home" class="footer-logo-link" aria-label="Climatic Resources Consulting — back to top">
-        <img
-          src="assets/brand/crc_logo_legacy.png"
-          alt="CRC logo"
-          class="footer-logo">
-      </a>
-      <div class="footer-text">
-        <p>&copy; <span id="footer-year"></span> Climatic Resources Consulting. All rights reserved.</p>
-        <p>Nelson, BC, Canada &mdash; <a href="mailto:mel.reasoner@crcteam.ca">mel.reasoner@crcteam.ca</a></p>
-      </div>
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <img src="assets/brand/crc_logo.png" alt="CRC logo" class="footer-logo" loading="lazy">
+      <p><span id="year"></span> Climatic Resources Consulting | Nelson, BC | <a href="mailto:mel.reasoner@crcteam.ca">mel.reasoner@crcteam.ca</a></p>
     </div>
   </footer>
 
-
   <script>
-    // Inject current year
-    document.getElementById('footer-year').textContent = new Date().getFullYear();
+    document.getElementById('year').textContent = new Date().getFullYear();
 
-    // Sticky header scroll state
-    const header = document.getElementById('site-header');
-    window.addEventListener('scroll', function () {
-      header.classList.toggle('scrolled', window.scrollY > 50);
+    const header = document.querySelector('.topbar');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('is-solid', window.scrollY > 20);
     }, { passive: true });
 
-    // Mobile nav toggle
-    const navToggle = document.querySelector('.nav-toggle');
-    const navList  = document.getElementById('nav-list');
+    const menuBtn = document.querySelector('.menu-btn');
+    const nav = document.getElementById('site-nav');
 
-    navToggle.addEventListener('click', function () {
-      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
-      navToggle.setAttribute('aria-expanded', String(!isOpen));
-      navList.classList.toggle('is-open', !isOpen);
+    menuBtn.addEventListener('click', () => {
+      const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+      menuBtn.setAttribute('aria-expanded', String(!expanded));
+      nav.classList.toggle('open', !expanded);
     });
 
-    // Close mobile nav when any link is clicked
-    navList.querySelectorAll('a').forEach(function (link) {
-      link.addEventListener('click', function () {
-        navToggle.setAttribute('aria-expanded', 'false');
-        navList.classList.remove('is-open');
+    nav.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        menuBtn.setAttribute('aria-expanded', 'false');
+        nav.classList.remove('open');
       });
     });
   </script>
-
 </body>
 </html>
