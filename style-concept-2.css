@@ -1,12 +1,22 @@
 :root {
   --ink: #1f2b33;
-  --teal: #0b4d4b;
-  --teal-2: #0c6662;
-  --mint: #46c476;
-  --sky: #3fb0e4;
-  --paper: #f5f8f8;
-  --paper-alt: #eaf0f0;
-  --line: #d3dddd;
+  /* CRC palette sampled from the R glyph in assets/brand/crc_logo.png */
+  --crc-deep: #1878ba;
+  --crc-mid: #06a89c;
+  --crc-soft: #24a8e4;
+  --crc-accent: #24b472;
+
+  /* LCap palette remains reserved for LCap-specific sections */
+  --lcap-green: #28b870;
+  --lcap-blue: #28a8e0;
+
+  --paper: #f2f6f8;
+  --paper-alt: #e8e8e8;
+  --line: #c8c8c8;
+  --crc-text-strong: #235075;
+  --crc-text-mid: #3f647f;
+  --crc-panel: #ffffff;
+  --crc-footer-bg: #0f4f7b;
   --max: 1180px;
 }
 
@@ -68,7 +78,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.74rem;
-  color: var(--teal-2);
+  color: var(--crc-mid);
   margin: 0 0 0.85rem;
 }
 
@@ -85,9 +95,9 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--teal);
+  border: 2px solid var(--crc-deep);
   border-radius: 999px;
-  background: var(--teal);
+  background: linear-gradient(120deg, var(--crc-deep) 0%, var(--crc-mid) 100%);
   color: #fff;
   padding: 0.75rem 1.25rem;
   font-family: "Space Grotesk", Arial, sans-serif;
@@ -99,13 +109,13 @@ p {
 
 .btn:hover {
   transform: translateY(-2px);
-  background: var(--teal-2);
-  border-color: var(--teal-2);
+  background: linear-gradient(120deg, var(--crc-mid) 0%, var(--crc-accent) 100%);
+  border-color: var(--crc-mid);
 }
 
 .btn-ghost {
   background: transparent;
-  color: var(--teal);
+  color: var(--crc-deep);
 }
 
 .btn-ghost:hover {
@@ -156,24 +166,24 @@ p {
   font-size: 0.84rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #264247;
+  color: var(--crc-text-strong);
   padding: 0.5rem 0.7rem;
 }
 
 .site-nav a:hover {
-  color: var(--teal-2);
+  color: var(--crc-mid);
 }
 
 .site-nav a.btn {
   color: #fff;
-  background: var(--teal);
-  border-color: var(--teal);
+  background: linear-gradient(120deg, var(--crc-deep) 0%, var(--crc-mid) 100%);
+  border-color: var(--crc-deep);
 }
 
 .site-nav a.btn:hover {
   color: #fff;
-  background: var(--teal-2);
-  border-color: var(--teal-2);
+  background: linear-gradient(120deg, var(--crc-mid) 0%, var(--crc-accent) 100%);
+  border-color: var(--crc-mid);
 }
 
 .menu-btn {
@@ -187,7 +197,7 @@ p {
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--teal);
+  background: var(--crc-deep);
   margin: 5px 0;
 }
 
@@ -214,7 +224,7 @@ p {
   height: 560px;
   right: -120px;
   top: -180px;
-  border-color: color-mix(in oklab, var(--sky) 65%, white);
+  border-color: color-mix(in oklab, var(--crc-soft) 62%, white);
 }
 
 .ring-b {
@@ -222,7 +232,7 @@ p {
   height: 640px;
   right: -190px;
   top: -220px;
-  border-color: color-mix(in oklab, var(--mint) 70%, white);
+  border-color: color-mix(in oklab, var(--crc-accent) 56%, white);
 }
 
 .ring-c {
@@ -230,7 +240,7 @@ p {
   height: 420px;
   left: -180px;
   bottom: -180px;
-  border-color: color-mix(in oklab, var(--teal) 55%, white);
+  border-color: color-mix(in oklab, var(--crc-deep) 52%, white);
 }
 
 .hero-grid {
@@ -244,14 +254,14 @@ p {
 .hero-copy h1 {
   font-size: clamp(2.1rem, 6vw, 4.1rem);
   max-width: 15ch;
-  color: #122229;
+  color: var(--crc-text-strong);
   margin-bottom: 1rem;
 }
 
 .hero-lead {
   max-width: 56ch;
   font-size: 1.1rem;
-  color: #37515a;
+  color: var(--crc-text-mid);
 }
 
 .hero-actions {
@@ -262,7 +272,7 @@ p {
 }
 
 .hero-figure {
-  background: #fff;
+  background: var(--crc-panel);
   border: 1px solid var(--line);
   border-radius: 20px;
   overflow: hidden;
@@ -271,15 +281,15 @@ p {
 
 .hero-figure figcaption {
   font-size: 0.9rem;
-  color: #46616a;
+  color: var(--crc-text-mid);
   padding: 0.9rem 1rem 1rem;
 }
 
 .lcap-ribbon {
-  padding: 1.35rem 0;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  background: #fff;
+  padding: 1.55rem 0;
+  border-top: 1px solid color-mix(in oklab, var(--lcap-blue) 45%, var(--line));
+  border-bottom: 1px solid color-mix(in oklab, var(--lcap-green) 45%, var(--line));
+  background: linear-gradient(120deg, rgba(63, 176, 228, 0.16) 0%, rgba(70, 196, 118, 0.14) 100%);
 }
 
 .ribbon-inner {
@@ -296,9 +306,26 @@ p {
 }
 
 .ribbon-inner p {
-  color: #2f4f57;
+  color: var(--crc-text-mid);
   font-size: 1.02rem;
   margin: 0;
+}
+
+.lcap-kicker {
+  font-family: "Space Grotesk", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  font-size: 0.72rem;
+  color: #1e8d63;
+  margin: 0 0 0.45rem;
+  font-weight: 700;
+}
+
+.lcap-title {
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-size: clamp(1.12rem, 2.3vw, 1.4rem);
+  color: var(--crc-text-strong);
+  margin: 0 0 0.45rem;
 }
 
 .split {
@@ -317,18 +344,18 @@ p {
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 1rem 1.1rem;
-  background: #fff;
+  background: var(--crc-panel);
 }
 
 .service-item h3 {
   font-size: 1.15rem;
   margin-bottom: 0.45rem;
-  color: #13363f;
+  color: var(--crc-text-strong);
 }
 
 .service-item p {
   margin: 0;
-  color: #476068;
+  color: var(--crc-text-mid);
 }
 
 .cards {
@@ -338,7 +365,7 @@ p {
 }
 
 .card {
-  background: #fff;
+  background: var(--crc-panel);
   border: 1px solid var(--line);
   border-radius: 16px;
   overflow: hidden;
@@ -352,18 +379,20 @@ p {
 }
 
 .card-body {
-  padding: 1rem 1rem 1.25rem;
+  padding: 1.2rem 1.15rem 1.4rem;
 }
 
 .card-body h3 {
   font-size: 1.05rem;
   margin-bottom: 0.5rem;
-  color: #153f43;
+  color: var(--crc-text-strong);
 }
 
 .card-body p {
   margin: 0;
-  color: #4a6169;
+  color: var(--crc-text-mid);
+  font-size: 0.98rem;
+  line-height: 1.68;
 }
 
 .about-grid {
@@ -385,12 +414,12 @@ p {
 .portrait-block figcaption {
   text-align: center;
   margin-top: 0.5rem;
-  color: #557177;
+  color: var(--crc-text-mid);
   font-size: 0.86rem;
 }
 
 .contact {
-  background: linear-gradient(180deg, #f3f9fa 0%, #edf4f5 100%);
+  background: linear-gradient(180deg, color-mix(in oklab, var(--crc-soft) 10%, white) 0%, color-mix(in oklab, var(--crc-mid) 8%, white) 100%);
   border-top: 1px solid var(--line);
 }
 
@@ -403,7 +432,7 @@ p {
 
 address {
   font-style: normal;
-  color: #2f4e55;
+  color: var(--crc-text-mid);
 }
 
 address p {
@@ -411,7 +440,7 @@ address p {
 }
 
 address a {
-  color: var(--teal);
+  color: var(--crc-deep);
   font-weight: 700;
 }
 
@@ -420,7 +449,7 @@ address a {
   border-radius: 16px;
   overflow: hidden;
   min-height: 300px;
-  background: #fff;
+  background: var(--crc-panel);
 }
 
 .map-wrap iframe {
@@ -431,8 +460,8 @@ address a {
 }
 
 .footer {
-  background: #0f2a2d;
-  color: #c2d7d9;
+  background: linear-gradient(120deg, var(--crc-deep) 0%, var(--crc-mid) 100%);
+  color: #eaf7ff;
   padding: 1.25rem 0;
 }
 
@@ -449,7 +478,7 @@ address a {
 }
 
 .footer a {
-  color: #8fd4f0;
+  color: #d8fbec;
 }
 
 @media (max-width: 1024px) {
@@ -481,7 +510,7 @@ address a {
     left: 0;
     right: 0;
     top: 84px;
-    background: #fff;
+    background: var(--crc-panel);
     border-top: 1px solid var(--line);
     border-bottom: 1px solid var(--line);
     padding: 0.75rem;
@@ -497,11 +526,11 @@ address a {
   .site-nav a {
     padding: 0.7rem;
     border-radius: 10px;
-    background: #f2f8f8;
+    background: color-mix(in oklab, var(--crc-soft) 10%, white);
   }
 
   .site-nav a.btn {
-    background: var(--teal);
+    background: var(--crc-deep);
     color: #fff;
   }
 
