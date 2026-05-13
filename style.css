@@ -69,6 +69,26 @@ p {
 
 .page-hero {
   padding: 4.4rem 0 3.1rem;
+  position: relative;
+}
+
+.page-hero .hero-art {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background-image: url('assets/backgrounds/clouds-hero.png');
+  background-size: cover;
+  background-position: center top;
+  opacity: 0.35;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.page-hero-inner {
+  position: relative;
 }
 
 .page-hero-inner h1 {
@@ -140,6 +160,22 @@ p {
 }
 
 .pub-list strong {
+  color: var(--crc-text-strong);
+}
+
+.pub-list a {
+  color: var(--crc-deep);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.15rem 0.4rem;
+  background: color-mix(in oklab, var(--crc-soft) 15%, white);
+  border-radius: 4px;
+  font-size: 0.88rem;
+  transition: background-color 0.2s ease;
+}
+
+.pub-list a:hover {
+  background: color-mix(in oklab, var(--crc-mid) 20%, white);
   color: var(--crc-text-strong);
 }
 
@@ -284,19 +320,22 @@ p {
 
 .hero {
   position: relative;
-  overflow: clip;
   padding: 5.25rem 0 4.5rem;
 }
 
 .hero-art {
   position: absolute;
-  inset: 0;
+  top: -50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   pointer-events: none;
   background-image: url('assets/backgrounds/clouds-hero.png');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   opacity: 0.35;
   filter: blur(2px);
+  z-index: -1;
 }
 
 .ring {
