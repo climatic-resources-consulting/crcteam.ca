@@ -164,7 +164,7 @@ p {
 
 .section-head h2 {
   font-size: clamp(1.8rem, 4vw, 3rem);
-  max-width: 22ch;
+  max-width: 100%;
 }
 
 .btn {
@@ -227,7 +227,7 @@ p {
 }
 
 .brand-mark {
-  height: 54px;
+  height: 72px;
   width: auto;
 }
 
@@ -292,12 +292,15 @@ p {
   position: absolute;
   inset: 0;
   pointer-events: none;
+  background-image: url('assets/backgrounds/clouds-hero.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.35;
+  filter: blur(2px);
 }
 
 .ring {
-  position: absolute;
-  border-radius: 999px;
-  border: 2px solid;
+  display: none;
 }
 
 .ring-a {
@@ -407,6 +410,13 @@ p {
   font-size: clamp(1.12rem, 2.3vw, 1.4rem);
   color: var(--crc-text-strong);
   margin: 0 0 0.45rem;
+}
+
+.lcap-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
 }
 
 .split {
@@ -562,6 +572,192 @@ address a {
   color: #d8fbec;
 }
 
+/* Pricing page styles */
+.service-layers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.layer-card {
+  background: var(--crc-panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.2rem;
+}
+
+.layer-card h3 {
+  font-size: 1.1rem;
+  color: var(--crc-text-strong);
+  margin-bottom: 0.8rem;
+}
+
+.layer-card ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.layer-card li {
+  color: var(--crc-text-mid);
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.pricing-card {
+  background: var(--crc-panel);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-featured {
+  border: 2px solid var(--crc-mid);
+  box-shadow: 0 8px 24px rgba(6, 168, 156, 0.12);
+}
+
+.pricing-header h3 {
+  font-size: 1.3rem;
+  color: var(--crc-text-strong);
+  margin-bottom: 0.5rem;
+}
+
+.price-range {
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--crc-deep);
+  margin: 0.3rem 0;
+}
+
+.price-range-sub {
+  font-size: 0.95rem;
+  color: var(--crc-mid);
+  margin: 0;
+}
+
+.package-desc {
+  color: var(--crc-text-mid);
+  font-size: 0.96rem;
+  margin: 0.8rem 0 1rem;
+}
+
+.pricing-card h4 {
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--crc-mid);
+  margin: 0.8rem 0 0.5rem;
+}
+
+.package-features {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.package-features li {
+  color: var(--crc-text-mid);
+  margin-bottom: 0.5rem;
+}
+
+.price-tag {
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--crc-deep);
+  margin: 0 0 0.5rem;
+}
+
+.expansion-list {
+  max-width: 800px;
+  margin-top: 1.5rem;
+}
+
+.expansion-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 1.1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.expansion-row:first-child {
+  border-top: 1px solid var(--line);
+}
+
+.expansion-item {
+  color: var(--crc-text-mid);
+  font-size: 0.98rem;
+}
+
+.expansion-price {
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-weight: 600;
+  color: var(--crc-deep);
+  font-size: 0.95rem;
+}
+
+.client-recommendations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.client-card {
+  background: var(--crc-panel);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.client-card h3 {
+  font-size: 1.2rem;
+  color: var(--crc-text-strong);
+  margin-bottom: 0.8rem;
+}
+
+.recommended-label {
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--crc-mid);
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+}
+
+.client-card ul {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.client-card li {
+  color: var(--crc-text-strong);
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.rec-note {
+  font-size: 0.93rem;
+  color: var(--crc-text-mid);
+  font-style: italic;
+  margin: 0;
+}
+
 @media (max-width: 1024px) {
   .hero-grid,
   .split,
@@ -630,5 +826,11 @@ address a {
 
   .section {
     padding: 4rem 0;
+  }
+
+  .service-layers,
+  .pricing-grid,
+  .client-recommendations {
+    grid-template-columns: 1fr;
   }
 }
