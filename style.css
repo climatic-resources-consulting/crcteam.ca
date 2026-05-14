@@ -503,8 +503,8 @@ p {
 }
 
 .card img {
-  width: 100%;
-  aspect-ratio: 16/10;
+  width: auto;
+  height: auto;
   object-fit: contain;
   background: var(--paper);
 }
