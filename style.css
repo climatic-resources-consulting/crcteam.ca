@@ -503,7 +503,7 @@ p {
 }
 
 .card img {
-  width: 100%;
+  width: auto;
   height: auto;
   object-fit: contain;
   background: var(--paper);
