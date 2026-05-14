@@ -504,8 +504,8 @@ p {
 
 .card img {
   width: 100%;
-  aspect-ratio: 16/10;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   background: var(--paper);
 }
 
