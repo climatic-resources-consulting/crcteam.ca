@@ -491,7 +491,7 @@ p {
 .cards {
   display: grid;
   gap: 1.1rem;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
 }
 
 .card {
@@ -500,17 +500,23 @@ p {
   border-radius: 16px;
   overflow: hidden;
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: start;
 }
 
 .card img {
-  width: auto;
+  width: 100%;
   height: auto;
-  object-fit: contain;
+  max-height: 22rem;
+  display: block;
+  object-fit: cover;
   background: var(--paper);
 }
 
 .card-body {
   padding: 1.2rem 1.15rem 1.4rem;
+  min-width: 0;
 }
 
 .card-body h3 {
@@ -805,6 +811,10 @@ address a {
   .about-grid,
   .contact-grid,
   .detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
     grid-template-columns: 1fr;
   }
 
