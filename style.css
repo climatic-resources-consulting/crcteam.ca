@@ -398,7 +398,7 @@ p {
   background: var(--crc-panel);
   border: 1px solid var(--line);
   border-radius: 20px;
-  overflow: hidden;
+  overflow: visible;
   box-shadow: 0 30px 40px rgba(13, 50, 53, 0.12);
 }
 
@@ -498,7 +498,7 @@ p {
   background: var(--crc-panel);
   border: 1px solid var(--line);
   border-radius: 16px;
-  overflow: hidden;
+  overflow: visible;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
@@ -536,7 +536,19 @@ p {
   display: grid;
   grid-template-columns: 320px 1fr;
   gap: 2.2rem;
-  align-items: start;
+  align-items: stretch;
+}
+
+.about-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 0;
+}
+
+.about-btn {
+  align-self: center;
+  margin-top: 1rem;
 }
 
 .portrait-block {
@@ -584,7 +596,7 @@ address a {
 .map-wrap {
   border: 1px solid var(--line);
   border-radius: 16px;
-  overflow: hidden;
+  overflow: visible;
   min-height: 300px;
   background: var(--crc-panel);
 }
