@@ -906,3 +906,8 @@ address a {
     grid-template-columns: 1fr;
   }
 }
+.project-outputs,
+.project-outputs p,
+.project-outputs li {
+  font-style: normal;
+}
