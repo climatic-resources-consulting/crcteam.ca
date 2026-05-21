@@ -255,7 +255,7 @@ p {
 }
 
 .topbar-inner {
-  min-height: 84px;
+  min-height: 154px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -263,7 +263,7 @@ p {
 }
 
 .brand-mark {
-  height: 72px;
+  height: 120px;
   width: auto;
 }
 
@@ -396,6 +396,7 @@ p {
 
 .hero-figure {
   background: var(--crc-panel);
+  padding: 0.7rem;
   border: 1px solid var(--line);
   border-radius: 20px;
   overflow: visible;
@@ -406,6 +407,12 @@ p {
   font-size: 0.9rem;
   color: var(--crc-text-mid);
   padding: 0.9rem 1rem 1rem;
+}
+
+.hero-figure img {
+  width: 100%;
+  display: block;
+  border-radius: 0.75rem;
 }
 
 .lcap-ribbon {
@@ -879,7 +886,8 @@ address a {
   }
 
   .brand-mark {
-    height: 48px;
+    height: 72px;
+    width: auto;
   }
 
   .hero {
