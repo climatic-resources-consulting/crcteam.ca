@@ -382,7 +382,6 @@ p {
 }
 
 .hero-lead {
-  max-width: 56ch;
   font-size: 1.1rem;
   color: var(--crc-text-mid);
 }
