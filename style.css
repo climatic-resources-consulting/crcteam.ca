@@ -255,7 +255,7 @@ p {
 }
 
 .topbar-inner {
-  min-height: 84px;
+  min-height: 154px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -263,7 +263,7 @@ p {
 }
 
 .brand-mark {
-  height: 72px;
+  height: 120px;
   width: auto;
 }
 
@@ -275,7 +275,7 @@ p {
 
 .site-nav a {
   font-family: "Space Grotesk", Arial, sans-serif;
-  font-size: 0.84rem;
+  font-size: 1.10rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--crc-text-strong);
@@ -376,7 +376,7 @@ p {
 
 .hero-copy h1 {
   font-size: clamp(2.1rem, 6vw, 4.1rem);
-  max-width: 15ch;
+  max-width: 12ch;
   color: var(--crc-text-strong);
   margin-bottom: 1rem;
 }
@@ -388,7 +388,6 @@ p {
 }
 
 .hero-lead {
-  max-width: 56ch;
   font-size: 1.1rem;
   color: var(--crc-text-mid);
 }
@@ -402,9 +401,11 @@ p {
 
 .hero-figure {
   background: var(--crc-panel);
+  padding: 0.7rem;
   border: 1px solid var(--line);
   border-radius: 20px;
-  overflow: hidden;
+  overflow: visible;
+  max-width: 100%
   box-shadow: 0 30px 40px rgba(13, 50, 53, 0.12);
   padding: 1.5rem;
   justify-self: end;
@@ -414,6 +415,13 @@ p {
   font-size: 0.9rem;
   color: var(--crc-text-mid);
   padding: 0.9rem 1rem 1rem;
+}
+
+.hero-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.75rem;
 }
 
 .lcap-ribbon {
@@ -500,14 +508,18 @@ p {
   display: grid;
   gap: 1.1rem;
   grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
 }
 
 .card {
   background: var(--crc-panel);
   border: 1px solid var(--line);
   border-radius: 16px;
-  overflow: hidden;
+  overflow: visible;
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: start;
 }
 
 .card-horizontal {
@@ -525,6 +537,7 @@ p {
 
 .card-body {
   padding: 1.2rem 1.15rem 1.4rem;
+  min-width: 0;
 }
 
 .card-body h3 {
@@ -544,7 +557,19 @@ p {
   display: grid;
   grid-template-columns: 320px 1fr;
   gap: 2.2rem;
-  align-items: start;
+  align-items: stretch;
+}
+
+.about-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 0;
+}
+
+.about-btn {
+  align-self: center;
+  margin-top: 1rem;
 }
 
 .portrait-block {
@@ -592,7 +617,7 @@ address a {
 .map-wrap {
   border: 1px solid var(--line);
   border-radius: 16px;
-  overflow: hidden;
+  overflow: visible;
   min-height: 300px;
   background: var(--crc-panel);
 }
@@ -618,7 +643,7 @@ address a {
 }
 
 .footer-logo {
-  height: 42px;
+  height: 92px;
   width: auto;
 }
 
@@ -822,6 +847,10 @@ address a {
     grid-template-columns: 1fr;
   }
 
+  .card {
+    grid-template-columns: 1fr;
+  }
+
   .ribbon-inner {
     grid-template-columns: 1fr;
   }
@@ -871,7 +900,8 @@ address a {
   }
 
   .brand-mark {
-    height: 48px;
+    height: 72px;
+    width: auto;
   }
 
   .hero {
@@ -887,4 +917,7 @@ address a {
   .client-recommendations {
     grid-template-columns: 1fr;
   }
+}
+html {
+  scroll-padding-top: 130px;
 }
