@@ -908,3 +908,121 @@ address a {
 html {
   scroll-padding-top: 130px;
 }
+/* Full-width Edmonton Probability in Practice card */
+.card.card-wide {
+  grid-column: 1 / -1;
+  display: block;
+}
+
+.card.card-wide .card-wide-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+
+.card.card-wide .card-body {
+  width: 100%;
+}
+.case-wide-heading {
+  margin-left: 12px;
+}
+.nordic-image {
+  width: 7
+  0%;
+  max-width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.card-wide .card-body p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+/* Risk Tolerance Tool — image left, text right */
+
+.risk-tolerance-card {
+  padding: 24px;
+}
+
+.risk-tolerance-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.risk-tolerance-row .risk-tolerance-image {
+  display: block;
+  width: 42%;
+  max-width: 500px;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.risk-tolerance-content {
+  flex: 1;
+  padding: 10px 20px;
+}
+
+.risk-tolerance-content .case-wide-heading {
+  margin: 0 0 14px 0;
+}
+
+.risk-tolerance-content p {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .risk-tolerance-row {
+    flex-direction: column;
+  }
+
+  .risk-tolerance-row .risk-tolerance-image {
+    width: 100%;
+  }
+}
+/* Links within case-study descriptions */
+.card-body a,
+.risk-tolerance-content a {
+  color: #0077b6;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.card-body a:hover,
+.risk-tolerance-content a:hover {
+  color: #005f8f;
+}
+.about-grid + .about-grid {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--line);
+}
+.about-team-member {
+  margin-top: 70px;
+}
+/* About CRC subsection */
+.about-crc {
+  margin-top: 80px;
+  padding-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.about-crc > p {
+  max-width: 1000px;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.crc-reports {
+  margin-top: 28px;
+}
+
+.crc-reports li {
+  margin-bottom: 18px;
+  line-height: 1.65;
+}

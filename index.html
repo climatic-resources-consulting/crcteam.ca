@@ -68,7 +68,9 @@
         <div>
           <p class="lcap-kicker">Featured Platform</p>
           <h2 class="lcap-title">LCap - Localised Climate Analysis and Projections</h2>
-          <p>LCap is CRC's core software platform and the engine behind our probability-based climate risk assessments for site-specific operations and infrastructure. Based on localized climate model data, LCap provides probability curves that quantify the likelihood of exceeding user-defined climate thresholds that are critical for assets.  This shifts the discussion from “How much change?” to “What is the probability that a defined design limit is exceeded, and when?”</p>
+          <p>LCap is CRC's core software platform and the engine behind our probability-based climate risk assessments for site-specific operations and infrastructure. Based on localized climate model data, LCap provides probability curves that quantify the likelihood of exceeding user-defined climate thresholds that are critical for assets.  This shifts the discussion from “How much change?” to “What is the probability that a defined design limit is exceeded, and when?”  </p> 
+
+          </p>CRC has provided a LCap 'Lite' version of the software (three climate indicators)for nine communities in the Canadian Columbia Basin.</p>
           <div class="lcap-actions">
             <a href="https://basinclimatesource.ca/risk-analysis" class="btn" target="_blank" rel="noopener noreferrer">Try LCap Lite - Columbia Basin Communities</a>
           </div>
@@ -109,30 +111,70 @@
       <div class="wrap">
         <div class="section-head">
           <p class="kicker">Case Studies</p>
-          <h2>Probability in Practice.</h2>
+          <h2>Examples of Probability in Practice.</h2>
         </div>
-        <div class="cards">
-          <article class="card">
-            <img src="assets/figures/probability-curves.png" alt="Risk threshold analysis showing probability curves" loading="lazy">
+       <div class="cards">
+          <article class="card card-wide">
+            <h3 class="case-wide-heading">1. City of Edmonton Collaboration</h3>
+            <img
+              class="card-wide-image"
+              src="assets/figures/case-edmonton2.png"
+              alt="Risk threshold analysis showing probability curves"
+              loading="lazy">
             <div class="card-body">
-              <h3>City of Edmonton Collaboration</h3>
-              <p>CRC developed and applied the LCap framework to support probability-based climate planning for City of Edmonton operations and infrastructure. The work combined a local climate history with future projections to quantify the likelihood of key temperature and precipitation thresholds.  The figure shows risk threshold analysis showing probability of hottest daytime temperature exceeding 39.5°C under different emissions scenarios.  The solid curves show the annual exceedance probabilities which is the inverse of the return perioed.  The dashed curves show the cumulative probabilities which are the probabilities of exceeding the 39.5°C threshold at least once in the planning timeframe (2026 - 2065).</p>
+              
+              <p>The work provided the City of Edmonton with projections for 48 CMIP6 climate indicators that were bias corrected to the inner city historical climate record to include the urban heat island effect.  Based on these projections, LCap computes the probabilities of exceeding specific, user-defined thresholds.   In this example, the top panel shows projected annual hottest daytime temperature for SSP2-4.5 and SSP5-8.5 and the 39.5 degree threshold.  The bottom panel shows risk threshold analysis showing probability of hottest daytime temperature exceeding 39.5°C under the different emissions scenarios. The solid curves show the annual exceedance probability which is the inverse of the return period. The dashed curves show the cumulative probability which is the probability of exceeding the 39.5°C threshold at least once in the planning timeframe (2026 - 2065).</p>
             </div>
           </article>
-          <article class="card">
-            <img src="assets/figures/case-cooling.jpg" alt="Cooling cost budget threshold analysis" loading="lazy">
-            <div class="card-body">
-              <h3>Building Cooling Cost Thresholds</h3>
-              <p>This case study assessed future cooling cost exposure by estimating the probability of exceeding specific budget thresholds under projected warming conditions. LCap computes the probability of exceeding Cooling Degree Day thresholds which can be correlated with budgetary thresholds for cooling buildings. Rather than relying on a single forecast, CRC used probabilistic projections to identify a range of plausible outcomes and support resilient budget planning.</p>
-            </div>
-          </article>
-          <article class="card">
-            <img src="assets/figures/case-nordic.jpg" alt="Nordic ski area" loading="lazy">
-            <div class="card-body">
-              <h3>Nordic Ski Area Viability</h3>
+
+          <article class="card card-wide">
+              <h3 class="case-wide-heading">2. Nordic Ski Area Viability</h3>
+
+              <img
+              class="card-wide-image nordic-image"
+              src="assets/figures/case-nordic.jpg"
+              alt="Nordic ski area"
+              loading="lazy">
+
+              <div class="card-body">
               <p>For a Nordic ski operation in British Columbia, CRC produced a 100-year climate history and 21st-century projection set, then linked those datasets to operational snow and temperature thresholds to evaluate viability under changing conditions. This data guided resource allocation choices between the current valley-bottom site and a higher-elevation alternative..</p>
             </div>
           </article>
+          <article class="card card-wide">
+
+    <h3 class="case-wide-heading">3. Columbia Basin Trust Collaboration</h3>
+
+  <img
+    class="card-wide-image"
+    src="assets/figures/case-castlegar.png"
+    alt="Columbia Basin Trust climate risk analysis"
+    loading="lazy">
+
+  <div class="card-body">
+    <p>CRC developed ‘lite’ versions of LCap for 9 communities in the Canadian Columbia Basin for the Columbia Basin Trust’s Basin Source website.  Three climate indicators (Hottest Daytime Temperature, Maximum One-Day Precipitation and Heat Warning) are provided for each community.  This example shows SSP2-4.5 and SSP5-8.5 projections for the number of Heat Warning for the City of Castlegar (top panel).  The bottom panel shows the probabilities of exceeding 5 heat warnings in a year for the 2 SSPs.   Heat warnings are issued when there are 2 or more consecutive days with a daytime maximum temperature of 35°C or warmer, and an intervening nighttime minimum temperature of 18°C or warmer.  The solid curves show the annual exceedance probability which is the inverse of the return period. The dashed curves show the cumulative probability which is the probability of exceeding 5 heat warnings in a season at least once in the planning timeframe (2026 - 2065). Users can further explore the Risk Tolerance Tool on the <a href="https://basinclimatesource.ca/risk-analysis" target="_blank" rel="noopener noreferrer">Basin Source website</a>.</p>
+  </div>
+
+</article>
+<article class="card card-wide risk-tolerance-card">
+
+  <div class="risk-tolerance-row">
+
+    <img
+      class="risk-tolerance-image"
+      src="assets/figures/case-risk-tool.png"
+      alt="Climate risk tolerance assessment tool"
+      loading="lazy">
+
+    <div class="risk-tolerance-content">
+      <h3 class="case-wide-heading">4. Risk Tolerance Tool</h3>
+
+      <p>
+        In all cases, LCap provides a Risk Tolerance Tool that determines the value of the indicator under consideration that is associated with a user-defined confidence level.  To use the Risk Tolerance Tool, the user enters the desired confidence level and target year at the end of the planning timeframe. In this application, the confidence level is the probability that a threshold that would cause failure of an asset will not be exceeded in the timespan between now and the target year.  In general terms, the higher the costs associated with failure of an asset are, the higher the confidence level should be.  Once the confidence level is entered, LCap returns the indicator value that will not be exceeded with the desired confidence level in the planning timeframe. In this example using the Hottest Daytime Temperature under SSP5-8.5 for the City of Cranbrook, entering 95% confidence and a target year of 2075 yields 45.4°C.  In other words, temperature-sensitive assets in the City of Cranbrook should be designed to withstand 45.4°C to have 95% confidence in them not failing due to high ambient temperature over the next 50 years. Users can further explore the Risk Tolerance Tool on the <a href="https://basinclimatesource.ca/risk-analysis" target="_blank" rel="noopener noreferrer">Basin Source website</a>.<P>
+    </div>
+
+  </div>
+
+</article>
         </div>
       </div>
     </section>
@@ -144,16 +186,80 @@
         </figure>
         <div class="about-copy">
           <div class="section-head">
-            <p class="kicker">About</p>
+            <p class="kicker">Team</p>
             <h2>Mel Reasoner PhD</h2>
           </div>
           <div>
-            <p>Since CRC's inception, the company has focused on providing communities and organisations with detailed climate histories and localized climate model projections, while facilitating evidence-based adaptation and resilience planning.</p>
             <p>Mel Reasoner's work bridges climate science and practical implementation, grounded in the realities of rural BC and the needs of engineers and asset managers making long-term decisions about infrastructure, operations, and community risk.</p>
+            <p>Mel holds a PhD in Earth and Atmospheric Science from the University of Alberta, where his research focused on reconstructing environmental and climate history over the last ca. 13,000 years in the Canadian and Colorodo Rocky Mountains.
           </div>
           <a href="cv-publications.html" class="btn about-btn">CV & Publications</a>
         </div>
       </div>
+      
+      <div class="wrap about-grid about-team-member">
+  <figure class="portrait-block">
+    <img src="assets/photos/ben-ghertner.jpg" alt="Ben Ghertner">
+  </figure>
+
+  <div class="about-copy">
+    <div class="section-head">
+      <p class="kicker">Team</p>
+      <h2>Ben Ghertner MSc</h2>
+    </div>
+
+    <div>
+      <p>Ben Ghertner brings a background in scientific computing and numerical weather prediction to CRC's work developing probability-based climate risk assessments.</p>
+
+      <p>He holds a Master of Science in Applied and Computational Mathematics from Simon Fraser University, where his research focused on numerical modelling of atmospheric cloud dynamics and testing weather forecast models.</p>
+    </div>
+
+    <a href="cv-publications-BenG.html" class="btn about-btn">CV & Publications</a>
+  </div>
+</div>
+    <div class="wrap about-grid about-team-member">
+        <figure class="portrait-block">
+          <img src="assets/photos/jonathan-doyle.jpg" alt="Jonathan Doyle">
+        </figure>
+
+        <div class="about-copy">
+          <div class="section-head">
+          <p class="kicker">Team</p>
+          <h2>Jonathan Doyle MSc</h2>
+        </div>
+        <div>
+          <p>Jonathan Doyle brings more than fifteen years of atmospheric research experience to CRC, with a background in cloud microphysics, numerical weather prediction, and high-performance scientific computing.</p>
+
+        <p>He collaborates with CRC through his role as the Advanced Computing team lead at Selkirk Innovates, and holds a Master of Science in Atmospheric Science from Dalhousie University, where his research focused on Arctic lidar measurements of water vapour and cloud processes.</p>
+      </div>
+      <a href="cv-publications-JonD.html" class="btn about-btn">CV & Publications</a>
+    </div>
+    </div>
+    <div class="wrap about-crc">
+  <div class="section-head">
+    <p class="kicker">About CRC</p>
+    <h2>Applied Contributions and Reports</h2>
+  </div>
+
+  <p>
+    Since CRC's inception, the company has focused on providing communities and organisations with detailed climate histories and localized climate model projections, while facilitating evidence-based adaptation and resilience planning.
+  </p>
+
+  <div class="crc-reports">
+     <ol class="pub-list">
+          <li><strong>Reasoner, M.A. and Doyle, J. (2026).</strong> Localized Climate Analysis and Projection (LCap) User Guide. Technical Documentation. Prepared for the City of Edmonton by Climatic Resources Consulting.</li>
+          <li><strong>Doylse, J. and Reasoner, M.A. (2026).</strong> Localized Climate Analysis and Projection (LCap) Methodology: Technical Documentation. Prepared for the City of Edmonton by Climatic Resources Consulting.</li>
+          <li><strong>Reasoner, M.A. (2023).</strong> Climate and Hydrologic Projections for the Creston Area and Kootenay Lake Region: Estimated peak Goat River Flows and Kootenay Lake Levels [Report].  Prepared for the Creston Valley Flood Management Partnership by Climatic Resources Consulting.</li>
+          <li><strong>Eyzaguirre, J., Boyd, R., Morton, C., Semmens, C., Ramen, S., Reasoner, M., Cuell, C., Kohfeld, K. and Sherren, K. (2022).</strong> Understanding Climate Change Impacts in Relation to Wellbeing for Nova Scotia – Synthesis Report. Report prepared by ESSA Technologies Ltd. and collaborators for Nova Scotia Environment and Climate Change.</li>
+          <li><strong>Reasoner, M.A. and Cuell, C. (2020).</strong> Toby Creek Nordic Ski Club Climate Assessment [Report]. Prepared for Toby Creek Nordic Club by Climatic Resources Consulting.</li>
+          <li><strong>Jones, J., Liepa, I., Green, K., Rethoret, L., Maloney, J., Remond, J., Abott, N., Neto, R., Reasoner, M., Cuell, C., Matejka, M., Driver, S., Perrault, J., Zettel, C., and Krefting, C.  (2020).</strong> State of Climate Adaptation:  City of Cranbrook [Report].  Prepared for the City of Cranbrook by the Columbia Basin Rural Development Institute, Climatic Resources Consulting and the City of Cranbrook.</li>
+          <li><strong>Reasoner, M.A. and Cuell, C. (2018).</strong>Climate Change in the Edmonton Region: Trends and Projections [Report]. Prepared for the City of Edmonton by Climatic Resources Consulting.</li>
+          <li><strong>Cuell, C. and Reasoner, M.A. (2017).</strong> Climate projections for the City of Edmonton: projections of trends in precipitation, temperature and indices of climate extremes from 1950 to 2100 [Report]. Prepared for the City of Edmonton by Climatic Resources Consulting.</li>
+          <li><strong>Reasoner, M.A. and Cuell, C. (2016).</strong> Climate History for the City of Edmonton: a reconstruction of trends in precipitation, temperature and indices of climate extremes over the last 100 years [Report]. Prepared for the City of Edmonton by Climatic Resources Consulting.</li>
+          <li><strong>Reasoner, M.A. (2015).</strong> Projected Intensity, Duration and Frequency (IDF) Precipitation Curves for the Town of Creston [Report].  Prepared for the Town of Creston by Climatic Resources Consulting.</li>
+        </ol>
+  </div>
+</div>
     </section>
 
     <section class="section contact" id="contact">

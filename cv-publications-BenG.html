@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+  <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+  <meta name="description" content="CV, professional contributions, and publications for Ben L. Ghertner (Climatic Resources Consulting).">
+  <title>CRC | CV and Publications</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar" id="top">
+    <div class="wrap topbar-inner">
+      <a href="index.html#home" class="brand" aria-label="Climatic Resources Consulting home">
+        <img src="assets/brand/crc_logo.png" alt="CRC logo" class="brand-mark">
+      </a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+  <a href="index.html#home">Home</a>
+  <a href="index.html#services">What We Do</a>
+  <a href="index.html#case-studies">Case Studies</a>
+  <a href="index.html#about">About</a>
+  <a href="pricing.html">Services</a>
+  <a href="cv-publications.html">CV + Publications</a>
+  <a href="index.html#contact" class="btn btn-small">Contact</a>
+</nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section page-hero">
+      <div class="hero-art" aria-hidden="true"></div>
+      <div class="wrap page-hero-inner">
+        <p class="kicker">Professional Background</p>
+        <h1>Curriculum Vitae and Contributions</h1>
+        <p class="hero-lead"></p>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Curriculum Vitae</p>
+          <h2>Ben L. Ghertner</h2>
+        </div>
+        <div class="detail-grid">
+          <article class="detail-card">
+            <h3>Education</h3>
+            <ul class="clean-list">
+              <li><strong>Master of Science, Applied and Computational Math</strong><br>Simon Fraser University, Burnaby, British Columbia, Canada (Fall 2025)</li>
+              <li><strong>Bachelor of Science, Physics</strong><br>University of the Fraser Valley, Abbotsford, British Columbia, Canada (Fall 2022)</li>
+            </ul>
+          </article>
+
+          <article class="detail-card">
+            <h3>Skillset Summary</h3>
+            <ul class="clean-list">
+              <li>Proficiency working with and analyzing large weather and climate datasets.</li>
+              <li>Research experience in numerical weather prediction, including development of diagnostic tools for atmospheric simulation models and benchmarking and testing of computational methods.</li>
+              <li>Strong communication skills for translating complex scientific concepts to technical and non-technical audiences.</li>
+              <li>Experience collaborating with multidisciplinary research teams working on geophysical modelling and forecasting.</li>
+              <li>Extensive experience developing scientific computing software in Python, C++, and Fortran.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Professional and Academic Experience</p>
+          <h2>Selected Contributions</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h3>2025 | National Center for Atmospheric Research (NCAR)</h3>
+            <p>Developed diagnostic tools to identify the effects of spurious gravity waves in numerical weather forecast simulations, using the Model for Prediction Across Scales (MPAS). Work included developing and implementing spectral filtering methods and collaborating with atmospheric scientists at NCAR.</p>
+          </article>
+          <article class="timeline-item">
+            <h3>2022 - 2025 | Simon Fraser University</h3>
+            <p>Worked with a research team studying a novel Boussinesq model for the edge motion of atmospheric clouds, as both an undergraduate and graduate student. Work included scientific software development, profiling and optimizing large codes, and running idealized weather simulations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Thesis</p>
+          <h2>Master's Thesis</h2>
+        </div>
+        <ol class="pub-list">
+          <li><strong>Ghertner, B.L. (2025).</strong> <em>A Boussinesq Model for the Motion of a Cloud Edge</em> [Master's Thesis]. Simon Fraser University, Burnaby, BC.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <img src="assets/brand/crc_logo.png" alt="CRC logo" class="footer-logo" loading="lazy">
+      <p><span id="year"></span> Climatic Resources Consulting | Nelson, BC | <a href="mailto:mel.reasoner@crcteam.ca">mel.reasoner@crcteam.ca</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const header = document.querySelector('.topbar');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('is-solid', window.scrollY > 20);
+    }, { passive: true });
+
+    const menuBtn = document.querySelector('.menu-btn');
+    const nav = document.getElementById('site-nav');
+
+    menuBtn.addEventListener('click', () => {
+      const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+      menuBtn.setAttribute('aria-expanded', String(!expanded));
+      nav.classList.toggle('open', !expanded);
+    });
+
+    nav.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        menuBtn.setAttribute('aria-expanded', 'false');
+        nav.classList.remove('open');
+      });
+    });
+  </script>
+</body>
+</html>
