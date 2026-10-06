@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
 
 # Explicit AI crawler directives (advisory only)
 User-agent: GPTBot
